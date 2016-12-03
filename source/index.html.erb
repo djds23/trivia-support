@@ -1,12 +1,19 @@
 ---
-title: Welcome to Middleman
+title: Trivia Cards
 ---
 
 <div class="welcome">
   <div class="logo">
     <%= image_tag "icon-1024.png" %>
   </div>
-  <h1>For support with Trivia Cards, Please email us: </h1>
+    <a href="https://itunes.apple.com/us/app/trivia-cards/id1180423214?mt=8">
+      <div class="badge">
+      <%= image_tag "app-store-badge.svg" %>
+      </div>
+    </a>
+  </div>
+ 
+  <p>To report an issue, please email us: </p>
   <p class="doc">
     <%= mail_to "triviabugs@gmail.com", "triviabugs@gmail.com" %>
   </p><!-- .doc -->
